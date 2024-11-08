@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import logo from "./img/icons8-facebook-32.png"
 
 const App = () => {
   const categories = [
@@ -112,7 +113,15 @@ const App = () => {
           </div>
         </div>
       ))}
+      <footer className="footer">
+        <p className="footer-text">Created by Narets Ng</p>
+        <a href="https://www.facebook.com/profile.php?id=100001005871414" target="_blank" rel="noopener noreferrer" className="footer-link">
+          <img src={logo} className="footer-logo" alt="Facebook" />
+          <span className="footer-social-text">Facebook</span>
+        </a>
+      </footer>
     </div>
+
   );
 };
 

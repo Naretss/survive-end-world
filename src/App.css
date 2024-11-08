@@ -96,3 +96,51 @@ body {
 body{
   background-color: #374151;
 }
+
+/* App.css */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-top: 1px solid #e9ecef;
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-size: 16px;
+  margin-right: 10px;
+  color: #343a40;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4f46e5;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3742fa;
+}
+
+.footer-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  transition: transform 0.3s ease;
+}
+
+.footer-link:hover .footer-logo {
+  transform: scale(1.1);
+}
+
+.footer-social-text {
+  font-size: 16px;
+  color: #6c757d;
+}
