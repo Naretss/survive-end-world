@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/survive-end-world/static/css/main.0557b20f.css",
+    "main.js": "/survive-end-world/static/js/main.95f28500.js",
+    "static/js/453.503179d5.chunk.js": "/survive-end-world/static/js/453.503179d5.chunk.js",
+    "index.html": "/survive-end-world/index.html",
+    "main.0557b20f.css.map": "/survive-end-world/static/css/main.0557b20f.css.map",
+    "main.95f28500.js.map": "/survive-end-world/static/js/main.95f28500.js.map",
+    "453.503179d5.chunk.js.map": "/survive-end-world/static/js/453.503179d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0557b20f.css",
+    "static/js/main.95f28500.js"
+  ]
+}
